@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN" "[url]http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd[/url]">
+<!--  N.E.S.T. By Zatiel -->
+<Menu>
+<Name>IGNIZ</Name>
+<!-- NEST submenu -->
+<Menu>
+      <Name>IGNIZ</Name>
+	  <Layout>
+             <Menuname>NESTS BackDoor Creators</Menuname>
+             <Menuname>NESTS BruteForce Services</Menuname>
+	    	 <Menuname>NESTS Exploitation Tools</Menuname>
+             <Menuname>NESTS Information Gathering</Menuname>
+		     <Menuname>NESTS Wireless Exploitation</Menuname>
+             <Menuname>NESTS Xss Exploitation</Menuname>
+	         <Menuname>NESTS Malware / Virus</Menuname>
+
+		 <Merge type="all"/> 
+	</Layout>
+
+        <Directory>nest.directory</Directory>
+
+
+
+<Menu>
+    <Name>NESTS BruteForce Services</Name>
+      <Directory>terminal-brute.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-brute</Category>
+        </And>
+      </Include>
+    </Menu>
+
+
+ 
+  <Menu>
+    <Name>NESTS Exploitation Tools</Name>
+    <Directory>nestexploits.directory</Directory>
+    <Include>
+      <And>
+        <Category>exploitation</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>Botnets</Name>
+      <Directory>nestbotnets.directory</Directory>
+      <Include>
+        <And>
+          <Category>botnets</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Bots</Name>
+      <Directory>nestbots.directory</Directory>
+      <Include>
+        <And>
+          <Category>bots</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Terminal Exploits</Name>
+      <Directory>nest-terminal-exploits.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-exploits</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Windows Exploits</Name>
+      <Directory>nest-win-exploits.directory</Directory>
+      <Include>
+        <And>
+          <Category>windows-exploits</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>ExploitDB</Name>
+      <Directory>nestexploitdb.directory</Directory>
+      <Include>
+        <And>
+          <Category>exploitdb</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Exploit Kits</Name>
+      <Directory>nestexploit-kits.directory</Directory>
+      <Include>
+        <And>
+          <Category>exploit-kits</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+
+  
+
+<Menu>
+    <Name>NESTS Information Gathering</Name>
+      <Directory>terminal-osint.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-osint</Category>
+        </And>
+      </Include>
+    </Menu>
+
+
+<Menu>
+    <Name>NESTS Malware / Virus </Name>
+    <Directory>nestvirus.directory</Directory>
+    <Include>
+      <And>
+        <Category>virus</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>NESTS Malware</Name>
+      <Directory>terminal-virus.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-virus</Category>
+        </And>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Windows Virus Creators</Name>
+      <Directory>win-virus.directory</Directory>
+      <Include>
+        <And>
+          <Category>win-virus</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+
+
+
+<Menu>
+    <Name>NESTS BackDoor Creators</Name>
+      <Directory>terminal-backdoor.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-backdoor</Category>
+        </And>
+      </Include>
+    </Menu>
+  
+
+
+  <Menu>
+      <Name>NESTS Wireless Exploitation</Name>
+	<Layout>
+		<Merge type="all"/>
+		 <Menuname>Wireless top10</Menuname>
+		 <Menuname>Attacks</Menuname>
+		 <Menuname>Crackers</Menuname>
+		 <Menuname>Defenders</Menuname>
+		 <Menuname>Dictionary</Menuname>
+		 <Menuname>Guis</Menuname>
+		 <Menuname>Info</Menuname>
+		 <Menuname>Speed</Menuname>
+		 <Menuname>Sniffers</Menuname>
+		 <Menuname>WPA</Menuname>
+		 <Menuname>WPA2</Menuname>
+		 <Menuname>WPS</Menuname>
+		 <Menuname>WEP</Menuname>
+		 <Menuname>Wifi Scripts</Menuname>
+	</Layout>
+
+      <Directory>nestwireless.directory</Directory>
+   
+    <Menu>
+      <Name>Crackers</Name>
+      <Directory>nestwifi-crackers.directory</Directory>
+      <Include>
+        <And>
+          <Category>wifi-crackers</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Defenders</Name>
+      <Directory>nestdefenders.directory</Directory>
+      <Include>
+        <And>
+          <Category>defenders</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Dictionary</Name>
+      <Directory>nestdictionary.directory</Directory>
+      <Include>
+        <And>
+          <Category>dic</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Guis</Name>
+      <Directory>gui.directory</Directory>
+      <Include>
+        <And>
+          <Category>gui</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Info</Name>
+      <Directory>nestinfo.directory</Directory>
+      <Include>
+        <And>
+          <Category>info</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Attacks</Name>
+      <Directory>nestattacks.directory</Directory>
+      <Include>
+        <And>
+          <Category>attacks</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>WPA</Name>
+      <Directory>nestwpa.directory</Directory>
+      <Include>
+        <And>
+          <Category>wpa</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>WPA2</Name>
+      <Directory>nestwpa2.directory</Directory>
+      <Include>
+        <And>
+          <Category>wpa2</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>WPS</Name>
+      <Directory>nestwps.directory</Directory>
+      <Include>
+        <And>
+          <Category>wps</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>WEP</Name>
+      <Directory>nestwep.directory</Directory>
+      <Include>
+        <And>
+          <Category>wep</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Speed</Name>
+      <Directory>nestspeed.directory</Directory>
+      <Include>
+        <And>
+          <Category>speed</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Sniffers</Name>
+      <Directory>nestsniff.directory</Directory>
+      <Include>
+        <And>
+          <Category>sniff</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Wifi Scripts</Name>
+      <Directory>nestwifiscripts.directory</Directory>
+      <Include>
+        <And>
+          <Category>wifiscripts</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+
+
+
+<Menu>
+    <Name>NESTS XSS Exploitation</Name>
+      <Directory>terminal-backdoor.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-xss</Category>
+        </And>
+      </Include>
+    </Menu>
+
+ 
+ 
+  </Menu>
+</Menu>
