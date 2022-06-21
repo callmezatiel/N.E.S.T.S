@@ -1,0 +1,2385 @@
+<?xml version="1.0"?>
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN" "[url]http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd[/url]">
+<!--  N.E.S.T. By Zatiel -->
+<Menu>
+<Name>N.E.S.T.S.</Name>
+<!-- NEST submenu -->
+<Menu>
+      <Name>N.E.S.T.S.</Name>
+	  <Layout>
+
+             <Menuname>NESTS BlackHat TOP PRO Tools</Menuname>
+             <Menuname>NESTS Anonimous Services</Menuname>
+             <Menuname>NESTS BackDoor Creators</Menuname>
+             <Menuname>NESTS BruteForce Services</Menuname>
+             <Menuname>NESTS Dork Tools</Menuname>
+             <Menuname>NESTS Security</Menuname>
+             <Menuname>NESTS Professional IT</Menuname>
+             <Menuname>NESTS Dos Tools</Menuname>
+	    	 <Menuname>NESTS Exploitation Tools</Menuname>
+             <Menuname>NESTS Encryption Tools</Menuname>
+             <Menuname>NESTS Information Gathering</Menuname>
+	         <Menuname>NESTS Malware / Virus</Menuname>
+             <Menuname>NESTS Multi Tasks Tools</Menuname>
+             <Menuname>NESTS Mitm Attack Tools</Menuname>
+             <Menuname>NESTS National Security Agency Tools</Menuname>
+             <Menuname>NESTS Proxy Tools</Menuname>
+             <Menuname>NESTS Security Tools</Menuname>
+             <Menuname>NESTS Remote Administration Tools</Menuname>
+             <Menuname>NESTS Target Scanners</Menuname>
+             <Menuname>NESTS SQL Exploitation</Menuname>
+             <Menuname>NESTS Xss Exploitation</Menuname>
+             <Menuname>NESTS Vulnerability Scanner</Menuname>
+             <Menuname>NESTS NESTS Wordlists Creators</Menuname>
+             <Menuname>NESTS Wireless Exploitation</Menuname>
+           
+
+
+		 <Merge type="all"/> 
+	</Layout>
+
+        <Directory>nest.directory</Directory>
+
+
+
+
+<Menu>
+   <Name>NESTS Anonimous Services</Name>
+	<Layout>
+		 <Menuname>Anon Browsers</Menuname>
+		 <Menuname>DNS Tools</Menuname>
+		 <Menuname>Tor Services</Menuname>
+		 <Menuname>Tor Country Selection</Menuname>
+		 <Menuname>Vpn Services</Menuname>
+		 <Menuname>Panic Services</Menuname>
+		 <Menuname>Security Services</Menuname>
+		 <Merge type="all"/> 
+	</Layout>
+
+        <Directory>anonymity.directory</Directory>
+
+  <Menu>
+    <Name>Anon Browsers</Name>
+    <Directory>anonb.directory</Directory>
+    <Include>
+      <And>
+        <Category>anonb</Category>
+      </And>
+    </Include>
+  </Menu>
+
+  <Menu>
+    <Name>DNS Tools</Name>
+    <Directory>dns.directory</Directory>
+    <Include>
+      <And>
+        <Category>dns</Category>
+      </And>
+    </Include>
+  </Menu>
+
+  <Menu>
+    <Name>Tor Services</Name>
+    <Directory>tor.directory</Directory>
+    <Include>
+      <And>
+        <Category>tor</Category>
+      </And>
+    </Include>
+  </Menu>
+
+  <Menu>
+    <Name>Tor Country Selection</Name>
+    <Directory>torcountry.directory</Directory>
+    <Include>
+      <And>
+        <Category>torcountry</Category>
+      </And>
+    </Include>
+  </Menu>
+
+  <Menu>
+    <Name>Vpn Services</Name>
+    <Directory>vpn.directory</Directory>
+    <Include>
+      <And>
+        <Category>vpn</Category>
+      </And>
+    </Include>
+  </Menu>
+
+  <Menu>
+    <Name>Panic Services</Name>
+    <Directory>panic.directory</Directory>
+    <Include>
+      <And>
+        <Category>panic</Category>
+      </And>
+    </Include>
+  </Menu>
+
+  <Menu>
+    <Name>Security Services</Name>
+    <Directory>security.directory</Directory>
+    <Include>
+      <And>
+        <Category>security</Category>
+      </And>
+    </Include>
+  </Menu>
+  </Menu>
+
+
+
+
+
+
+<Menu>
+    <Name>NESTS BruteForce Services</Name>
+      <Directory>terminal-brute.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-brute</Category>
+        </And>
+      </Include>
+    </Menu>
+
+
+ 
+  <Menu>
+    <Name>NESTS Exploitation Tools</Name>
+    <Directory>nestexploits.directory</Directory>
+    <Include>
+      <And>
+        <Category>exploitation</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>Botnets</Name>
+      <Directory>nestbotnets.directory</Directory>
+      <Include>
+        <And>
+          <Category>botnets</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Bots</Name>
+      <Directory>nestbots.directory</Directory>
+      <Include>
+        <And>
+          <Category>bots</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Terminal Exploits</Name>
+      <Directory>nest-terminal-exploits.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-exploits</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Windows Exploits</Name>
+      <Directory>nest-win-exploits.directory</Directory>
+      <Include>
+        <And>
+          <Category>windows-exploits</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>ExploitDB</Name>
+      <Directory>nestexploitdb.directory</Directory>
+      <Include>
+        <And>
+          <Category>exploitdb</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Exploit Kits</Name>
+      <Directory>nestexploit-kits.directory</Directory>
+      <Include>
+        <And>
+          <Category>exploit-kits</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+
+  
+  
+   <Menu>
+    <Name>NESTS EnCryption Tools</Name>
+    <Directory>crypt.directory</Directory>
+    <Include>
+      <And>
+        <Category>othercrypt</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>Console EnCryption Tools</Name>
+      <Directory>terminal-crypt.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-crypt</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Windows EnCryption Tools</Name>
+      <Directory>win-crypt.directory</Directory>
+      <Include>
+        <And>
+          <Category>win-crypt</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+
+ 
+
+<Menu>
+      <Name>NESTS Dork Tools</Name>
+        <Directory>terminal-dork.directory</Directory>
+         <Include>
+          <And>
+            <Category>terminal-dork</Category>
+          </And>
+         </Include>
+       </Menu> 
+
+
+<Menu>
+      <Name>NESTS BlackHat TOP PRO Tools</Name>
+        <Directory>blackhat.directory</Directory>
+         <Include>
+          <And>
+            <Category>bpro</Category>
+          </And>
+         </Include>
+       </Menu> 
+
+<Menu>
+      <Name>NESTS DoS Tools</Name>
+        <Directory>dos.directory</Directory>
+         <Include>
+          <And>
+            <Category>terminal-dos</Category>
+          </And>
+         </Include>
+       </Menu> 
+
+
+
+ <Menu>
+    <Name>NESTS EnCryption Tools</Name>
+      <Directory>terminal-crypt.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-crypt</Category>
+        </And>
+      </Include>
+    </Menu>
+
+
+
+
+
+
+<Menu>
+    <Name>NESTS Information Gathering</Name>
+      <Directory>terminal-osint.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-osint</Category>
+        </And>
+      </Include>
+    </Menu>
+
+
+
+<Menu>
+    <Name>NESTS Mitm Attack Tools</Name>
+      <Directory>terminal-mitm.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-mitm</Category>
+        </And>
+      </Include>
+    </Menu>
+
+
+
+
+
+<Menu>
+    <Name>NESTS Malware / Virus </Name>
+    <Directory>nestvirus.directory</Directory>
+    <Include>
+      <And>
+        <Category>virus</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>NESTS Malware</Name>
+      <Directory>terminal-virus.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-virus</Category>
+        </And>
+      </Include>
+    </Menu>
+
+    <Menu>
+      <Name>Windows Virus Creators</Name>
+      <Directory>win-virus.directory</Directory>
+      <Include>
+        <And>
+          <Category>win-virus</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+
+
+
+<Menu>
+    <Name>NESTS Unclassificated</Name>
+    <Directory>nother?.directory</Directory>
+    <Include>
+      <And>
+        <Category>other</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>Console Other</Name>
+      <Directory>terminal-other.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-other</Category>
+        </And>
+      </Include>
+    </Menu>
+ </Menu>
+
+
+
+<Menu>
+    <Name>NESTS BackDoor Creators</Name>
+      <Directory>terminal-backdoor.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-backdoor</Category>
+        </And>
+      </Include>
+    </Menu>
+  
+
+
+<Menu>
+    <Name>NESTS Multi Tasks Tools</Name>
+      <Directory>terminal-multi.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-multi</Category>
+        </And>
+      </Include>
+    </Menu>
+
+
+
+
+<Menu>
+    <Name>NESTS National Security Agency Tools</Name>
+    <Directory>nnsa.directory</Directory>
+    <Include>
+      <And>
+        <Category>othernsa</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>Terminal NSA Tools</Name>
+      <Directory>terminal-nsa.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-nsa</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+
+
+
+ <Menu>
+      <Name>NESTS Proxy Tools</Name>
+      <Directory>proxy.directory</Directory>
+      <Include>
+        <And>
+          <Category>win-proxy</Category>
+        </And>
+      </Include>
+    </Menu>
+
+
+
+
+<Menu>
+    <Name>NESTS Password Cracking</Name>
+      <Directory>terminal-cracker.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-cracker</Category>
+        </And>
+      </Include>
+  </Menu>
+
+
+ <Menu>
+      <Name>NESTS Remote Administration Tools</Name>
+      <Directory>win-rats.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-rats</Category>
+        </And>
+      </Include>
+    </Menu>
+
+
+
+
+ <Menu>
+    <Name>NESTS Phishing Attacks</Name>
+      <Directory>terminal-phishing.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-phishing</Category>
+        </And>
+      </Include>
+    </Menu>
+
+
+
+
+
+<Menu>
+    <Name>NESTS SQL Exploitation</Name>
+      <Directory>terminal-sqli.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-sqli</Category>
+        </And>
+      </Include>
+    </Menu>
+
+
+
+<Menu>
+    <Name>NESTS Target Scanners</Name>
+      <Directory>terminal-scanners.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-scanners</Category>
+        </And>
+      </Include>
+    </Menu>
+
+
+
+<Menu>
+    <Name>NESTS Vulnerability Scanners</Name>
+      <Directory>terminal-vulnerability.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-vulnerability</Category>
+        </And>
+      </Include>
+    </Menu>
+
+
+
+
+  <Menu>
+      <Name>NESTS Wireless Exploitation</Name>
+	<Layout>
+		<Merge type="all"/>
+		 <Menuname>Wireless top10</Menuname>
+		 <Menuname>Attacks</Menuname>
+		 <Menuname>Crackers</Menuname>
+		 <Menuname>Defenders</Menuname>
+		 <Menuname>Dictionary</Menuname>
+		 <Menuname>Guis</Menuname>
+		 <Menuname>Info</Menuname>
+		 <Menuname>Speed</Menuname>
+		 <Menuname>Sniffers</Menuname>
+		 <Menuname>WPA</Menuname>
+		 <Menuname>WPA2</Menuname>
+		 <Menuname>WPS</Menuname>
+		 <Menuname>WEP</Menuname>
+		 <Menuname>Wifi Scripts</Menuname>
+	</Layout>
+
+      <Directory>nestwireless.directory</Directory>
+   
+    <Menu>
+      <Name>Crackers</Name>
+      <Directory>nestwifi-crackers.directory</Directory>
+      <Include>
+        <And>
+          <Category>wifi-crackers</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Defenders</Name>
+      <Directory>nestdefenders.directory</Directory>
+      <Include>
+        <And>
+          <Category>defenders</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Dictionary</Name>
+      <Directory>nestdictionary.directory</Directory>
+      <Include>
+        <And>
+          <Category>dic</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Guis</Name>
+      <Directory>gui.directory</Directory>
+      <Include>
+        <And>
+          <Category>gui</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Info</Name>
+      <Directory>nestinfo.directory</Directory>
+      <Include>
+        <And>
+          <Category>info</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Attacks</Name>
+      <Directory>nestattacks.directory</Directory>
+      <Include>
+        <And>
+          <Category>attacks</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>WPA</Name>
+      <Directory>nestwpa.directory</Directory>
+      <Include>
+        <And>
+          <Category>wpa</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>WPA2</Name>
+      <Directory>nestwpa2.directory</Directory>
+      <Include>
+        <And>
+          <Category>wpa2</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>WPS</Name>
+      <Directory>nestwps.directory</Directory>
+      <Include>
+        <And>
+          <Category>wps</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>WEP</Name>
+      <Directory>nestwep.directory</Directory>
+      <Include>
+        <And>
+          <Category>wep</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Speed</Name>
+      <Directory>nestspeed.directory</Directory>
+      <Include>
+        <And>
+          <Category>speed</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Sniffers</Name>
+      <Directory>nestsniff.directory</Directory>
+      <Include>
+        <And>
+          <Category>sniff</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Wifi Scripts</Name>
+      <Directory>nestwifiscripts.directory</Directory>
+      <Include>
+        <And>
+          <Category>wifiscripts</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+
+
+
+
+
+
+  <Menu>
+      <Name>NESTS EX Services</Name>
+	<Layout>
+		<Merge type="all"/>
+		 <Menuname>Database</Menuname>
+		 <Menuname>HTTP</Menuname>
+		 <Menuname>Metasploit</Menuname>
+		 <Menuname>NeoJ4</Menuname>
+		 <Menuname>SSH</Menuname>
+	</Layout>
+    <Directory>nestservices.directory</Directory>
+    <Include>
+      <And>
+        <Category>serv-services</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>GPS</Name>
+      <Directory>serv-01-gpsd.directory</Directory>
+      <Include>
+        <And>
+          <Category>serv-01-gpsd</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>HTTP</Name>
+      <Directory>serv-02-httpd.directory</Directory>
+      <Include>
+        <And>
+          <Category>serv-02-httpd</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>MySQL</Name>
+      <Directory>serv-03-database.directory</Directory>
+      <Include>
+        <And>
+          <Category>serv-03-database</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>PCSCD</Name>
+      <Directory>serv-04-pcscd.directory</Directory>
+      <Include>
+        <And>
+          <Category>serv-04-pcscd</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Faraday</Name>
+      <Directory>serv-05-faraday.directory</Directory>
+      <Include>
+        <And>
+          <Category>serv-05-faraday</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SSH</Name>
+      <Directory>serv-06-sshd.directory</Directory>
+      <Include>
+        <And>
+          <Category>serv-06-sshd</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Radius</Name>
+      <Directory>serv-07-radius.directory</Directory>
+      <Include>
+        <And>
+          <Category>serv-07-radius</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>BEEF XSS Framework</Name>
+      <Directory>serv-08-beef-service.directory</Directory>
+      <Include>
+        <And>
+          <Category>serv-08-beef-service</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Metasploit</Name>
+      <Directory>serv-09-metasploit-service.directory</Directory>
+      <Include>
+        <And>
+          <Category>serv-09-metasploit-service</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Dradis</Name>
+      <Directory>serv-10-dradis-service.directory</Directory>
+      <Include>
+        <And>
+          <Category>serv-10-dradis-service</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>OpenVas</Name>
+      <Directory>serv-11-openvas-service.directory</Directory>
+      <Include>
+        <And>
+          <Category>serv-11-openvas-service</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Xplico</Name>
+      <Directory>serv-12-xplico-service.directory</Directory>
+      <Include>
+        <And>
+          <Category>serv-12-xplico-service</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Neo4j</Name>
+      <Directory>serv-13-neo4j-service.directory</Directory>
+      <Include>
+        <And>
+          <Category>serv-13-neo4j-service</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+
+
+
+
+
+
+<Menu>
+    <Name>NESTS XSS Exploitation</Name>
+      <Directory>terminal-backdoor.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-xss</Category>
+        </And>
+      </Include>
+    </Menu>
+
+ 
+
+<Menu>
+    <Name>NESTS Wordlists Creators</Name>
+      <Directory>word.directory</Directory>
+      <Include>
+        <And>
+          <Category>terminal-word</Category>
+        </And>
+      </Include>
+    </Menu>
+
+
+  <Menu>
+    <Name>NESTS Professional IT</Name>
+    <Directory>nestspit.directory</Directory>
+    <Menu>
+      <Name>Tools for maintenance</Name>
+      <Directory>kaisenlinux-maintenance.directory</Directory>
+    <Menu>
+      <Name>Recovery</Name>
+      <Directory>kaisenlinux-recovery.directory</Directory>
+      <Include>
+        <And>
+          <Category>Recovery</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Passwords</Name>
+      <Directory>kaisenlinux-passwords.directory</Directory>
+      <Include>
+        <And>
+          <Category>Passwords</Category>
+        </And>
+      </Include>
+    </Menu>      
+    <Menu>
+      <Name>Disks analysis</Name>
+      <Directory>kaisenlinux-disks.directory</Directory>
+      <Include>
+        <And>
+          <Category>DisksAnalysis</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Temperature analysis</Name>
+      <Directory>kaisenlinux-temperature.directory</Directory>
+      <Include>
+        <And>
+          <Category>Temperature</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>USB boot</Name>
+      <Directory>kaisenlinux-usbboot.directory</Directory>
+      <Include>
+        <And>
+          <Category>USBBoot</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Cloning</Name>
+      <Directory>kaisenlinux-cloning.directory</Directory>
+      <Include>
+        <And>
+          <Category>Cloning</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Malwares scan</Name>
+      <Directory>kaisenlinux-malwarescan.directory</Directory>
+      <Include>
+        <And>
+          <Category>MalwareScan</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Partitioning and erasing</Name>
+      <Directory>kaisenlinux-partitioning-erasing.directory</Directory>
+      <Include>
+        <And>
+          <Category>PartitioningErasing</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Hardware</Name>
+      <Directory>kaisenlinux-hardware.directory</Directory>
+      <Include>
+        <And>
+          <Category>Hardware</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>ZIP</Name>
+      <Directory>kaisenlinux-compress.directory</Directory>
+      <Include>
+        <And>
+          <Category>ZIP</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Data Protection</Name>
+      <Directory>kaisenlinux-dataprotection.directory</Directory>
+      <Include>
+        <And>
+          <Category>Dataprotection</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Outlook PST</Name>
+      <Directory>kaisenlinux-pst.directory</Directory>
+      <Include>
+        <And>
+          <Category>PST</Category>
+        </And>
+      </Include>
+    </Menu>
+    </Menu>
+    <Menu>
+      <Name>Tools for administration</Name>
+      <Directory>kaisenlinux-administration.directory</Directory>
+    <Menu>
+      <Name>Network</Name>
+      <Directory>kaisenlinux-network.directory</Directory>
+      <Include>
+        <And>
+          <Category>NetworkUncategorized</Category>
+      </And>
+        </Include>
+          <Menu>
+      <Name>Console port</Name>
+      <Directory>kaisenlinux-consoleport.directory</Directory>
+      <Include>
+        <And>
+          <Category>ConsolePort</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>TCPUDP</Name>
+      <Directory>kaisenlinux-tcpudp.directory</Directory>
+      <Include>
+        <And>
+          <Category>TCPUDP</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>PCAP</Name>
+      <Directory>kaisenlinux-pcap.directory</Directory>
+      <Include>
+        <And>
+          <Category>PCAP</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>MAC</Name>
+      <Directory>kaisenlinux-mac.directory</Directory>
+      <Include>
+        <And>
+          <Category>MAC</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Scanners</Name>
+      <Directory>kaisenlinux-scanners.directory</Directory>
+      <Include>
+        <And>
+          <Category>Scanner</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>IP</Name>
+      <Directory>kaisenlinux-ip.directory</Directory>
+      <Include>
+        <And>
+          <Category>IP</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Wi-Fi</Name>
+      <Directory>kaisenlinux-wifi.directory</Directory>
+      <Include>
+        <And>
+          <Category>WIFI</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Ethernet</Name>
+      <Directory>kaisenlinux-ethernet.directory</Directory>
+      <Include>
+        <And>
+          <Category>Ethernet</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Monitoring</Name>
+      <Directory>kaisenlinux-monitoring.directory</Directory>
+      <Include>
+        <And>
+          <Category>Monitoring</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>VPN</Name>
+      <Directory>kaisenlinux-vpn.directory</Directory>
+      <Include>
+        <And>
+          <Category>VPN</Category>
+        </And>
+      </Include>
+    </Menu>
+       <Menu>
+      <Name>GNS3</Name>
+      <Directory>kaisenlinux-gns3.directory</Directory>
+      <Include>
+        <And>
+          <Category>GNS3</Category>
+        </And>
+      </Include>
+    </Menu>
+    </Menu>
+    <Menu>
+      <Name>System</Name>
+      <Directory>kaisenlinux-systems.directory</Directory>
+      <Include>
+        <And>
+          <Category>SystemUncategorized</Category>
+        </And>
+      </Include>
+    <Menu>
+      <Name>Remote Administration</Name>
+      <Directory>kaisenlinux-remoteadministration.directory</Directory>
+      <Include>
+        <And>
+          <Category>RemoteAdministration</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Microsoft</Name>
+      <Directory>kaisenlinux-microsoft.directory</Directory>
+      <Include>
+        <And>
+          <Category>Microsoft</Category>
+        </And>
+      </Include>
+    </Menu>    
+    <Menu>
+      <Name>FTP</Name>
+      <Directory>kaisenlinux-ftp.directory</Directory>
+      <Include>
+        <And>
+          <Category>FTP</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Virtualization</Name>
+      <Directory>kaisenlinux-virtualization.directory</Directory>
+      <Include>
+        <And>
+          <Category>Virtualization</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Backup</Name>
+      <Directory>kaisenlinux-backup.directory</Directory>
+      <Include>
+        <And>
+          <Category>Backup</Category>
+        </And>
+      </Include>
+      <Menu>
+      <Name>Dirvish</Name>
+      <Directory>kaisenlinux-dirvish.directory</Directory>
+      <Include>
+        <And>
+          <Category>Dirvish</Category>
+        </And>
+      </Include>
+    </Menu>
+    </Menu>
+    <Menu>
+      <Name>SSL/TLS</Name>
+      <Directory>kaisenlinux-ssltls.directory</Directory>
+      <Include>
+        <And>
+          <Category>SSLTLS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>DNS</Name>
+      <Directory>kaisenlinux-dns.directory</Directory>
+      <Include>
+        <And>
+          <Category>DNS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>DHCP</Name>
+      <Directory>kaisenlinux-dhcp.directory</Directory>
+      <Include>
+        <And>
+          <Category>DHCP</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Firewalling</Name>
+      <Directory>kaisenlinux-firewalling.directory</Directory>
+      <Include>
+        <And>
+          <Category>Firewalling</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>AppArmor</Name>
+      <Directory>kaisenlinux-apparmor.directory</Directory>
+      <Include>
+        <And>
+          <Category>AppArmor</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Databases</Name>
+      <Directory>kaisenlinux-databases.directory</Directory>
+      <Include>
+        <And>
+          <Category>Databases</Category>
+        </And>
+      </Include>
+    </Menu>
+    </Menu>
+    <Menu>
+      <Name>DevOps and Cloud</Name>
+      <Directory>kaisenlinux-devops-cloud.directory</Directory>
+      <Include>
+        <And>
+          <Category>DevOps</Category>
+        </And>
+      </Include>
+     <Menu>
+      <Name>Docker</Name>
+      <Directory>kaisenlinux-docker.directory</Directory>
+      <Include>
+        <And>
+          <Category>Docker</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Ansible</Name>
+      <Directory>kaisenlinux-ansible.directory</Directory>
+      <Include>
+        <And>
+          <Category>Ansible</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>LXC</Name>
+      <Directory>kaisenlinux-lxc.directory</Directory>
+      <Include>
+        <And>
+          <Category>LXC</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>AWS</Name>
+      <Directory>kaisenlinux-aws.directory</Directory>
+      <Include>
+        <And>
+          <Category>AWS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Kubernetes</Name>
+      <Directory>kaisenlinux-kubernetes.directory</Directory>
+      <Include>
+        <And>
+          <Category>Kubernetes</Category>
+        </And>
+      </Include>
+    </Menu>
+    </Menu>
+    </Menu>
+    <Menu>
+      <Name>Services</Name>
+      <Directory>kaisenlinux-services.directory</Directory>
+      <Include>
+        <And>
+          <Category>Services</Category>
+        </And>
+      </Include>
+    <Menu>
+      <Name>SAvahi</Name>
+      <Directory>kaisenlinux-savahi.directory</Directory>
+      <Include>
+        <And>
+          <Category>SAvahi</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SClamAV</Name>
+      <Directory>kaisenlinux-sclamav.directory</Directory>
+      <Include>
+        <And>
+          <Category>SClamAV</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SCups</Name>
+      <Directory>kaisenlinux-scups.directory</Directory>
+      <Include>
+        <And>
+          <Category>SCups</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SContainers</Name>
+      <Directory>kaisenlinux-scontainers.directory</Directory>
+      <Include>
+        <And>
+          <Category>SContainers</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SOpenVPN</Name>
+      <Directory>kaisenlinux-sopenvpn.directory</Directory>
+      <Include>
+        <And>
+          <Category>SOpenVPN</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SRsync</Name>
+      <Directory>kaisenlinux-srsync.directory</Directory>
+      <Include>
+        <And>
+          <Category>SRsync</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SSmartmontools</Name>
+      <Directory>kaisenlinux-ssmartmontools.directory</Directory>
+      <Include>
+        <And>
+          <Category>SSmartmontools</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SBacula</Name>
+      <Directory>kaisenlinux-sbacula.directory</Directory>
+      <Include>
+        <And>
+          <Category>SBacula</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SIrqbalance</Name>
+      <Directory>kaisenlinux-sirqbalance.directory</Directory>
+      <Include>
+        <And>
+          <Category>Sirqbalance</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SLMSensors</Name>
+      <Directory>kaisenlinux-slmsensors.directory</Directory>
+      <Include>
+        <And>
+          <Category>SLMSensors</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SNTP</Name>
+      <Directory>kaisenlinux-sntp.directory</Directory>
+      <Include>
+        <And>
+          <Category>SNTP</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SSetSerial</Name>
+      <Directory>kaisenlinux-ssetserial.directory</Directory>
+      <Include>
+        <And>
+          <Category>SSetSerial</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SSSH</Name>
+      <Directory>kaisenlinux-sssh.directory</Directory>
+      <Include>
+        <And>
+          <Category>SSSH</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SSysstat</Name>
+      <Directory>kaisenlinux-ssysstat.directory</Directory>
+      <Include>
+        <And>
+          <Category>SSysstat</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SHostapd</Name>
+      <Directory>kaisenlinux-shostapd.directory</Directory>
+      <Include>
+        <And>
+          <Category>SHostapd</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SArpwatch</Name>
+      <Directory>kaisenlinux-sarpwatch.directory</Directory>
+      <Include>
+        <And>
+          <Category>SArpwatch</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SBluetooth</Name>
+      <Directory>kaisenlinux-sbluetooth.directory</Directory>
+      <Include>
+        <And>
+          <Category>SBluetooth</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SFirewalling</Name>
+      <Directory>kaisenlinux-sfirewalling.directory</Directory>
+      <Include>
+        <And>
+          <Category>SFirewalling</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SScrub</Name>
+      <Directory>kaisenlinux-sscrub.directory</Directory>
+      <Include>
+        <And>
+          <Category>SScrub</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SVirtualization</Name>
+      <Directory>kaisenlinux-svirtualization.directory</Directory>
+      <Include>
+        <And>
+          <Category>SVirtualization</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SRemoteMaintenance</Name>
+      <Directory>kaisenlinux-sremotemaintenance.directory</Directory>
+      <Include>
+        <And>
+          <Category>SRemoteMaintenance</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SFilesystems</Name>
+      <Directory>kaisenlinux-sfilesystems.directory</Directory>
+      <Include>
+        <And>
+          <Category>SFilesystems</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SBettercap</Name>
+      <Directory>kaisenlinux-sbettercap.directory</Directory>
+      <Include>
+        <And>
+          <Category>SBettercap</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SNeo4j</Name>
+      <Directory>kaisenlinux-sneo4j.directory</Directory>
+      <Include>
+        <And>
+          <Category>SNeo4j</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SGNS3</Name>
+      <Directory>kaisenlinux-sgns3.directory</Directory>
+      <Include>
+        <And>
+          <Category>SGNS3</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SHDDtemp</Name>
+      <Directory>kaisenlinux-shddtemp.directory</Directory>
+      <Include>
+        <And>
+          <Category>SHDDtemp</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SArpalert</Name>
+      <Directory>kaisenlinux-sarpalert.directory</Directory>
+      <Include>
+        <And>
+          <Category>SArpalert</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>S2ping</Name>
+      <Directory>kaisenlinux-s2ping.directory</Directory>
+      <Include>
+        <And>
+          <Category>S2ping</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SDarkstat</Name>
+      <Directory>kaisenlinux-sdarkstat.directory</Directory>
+      <Include>
+        <And>
+          <Category>SDarkstat</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Smlocate</Name>
+      <Directory>kaisenlinux-smlocate.directory</Directory>
+      <Include>
+        <And>
+          <Category>Smlocate</Category>
+        </And>
+      </Include>
+    </Menu>
+    </Menu>
+    <Menu>
+      <Name>Filesystems</Name>
+      <Directory>kaisenlinux-filesystems.directory</Directory>
+      <Include>
+        <And>
+          <Category>Filesystems</Category>
+        </And>
+      </Include>
+    <Menu>
+      <Name>BTRFS</Name>
+      <Directory>kaisenlinux-btrfs.directory</Directory>
+      <Include>
+        <And>
+          <Category>BTRFS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>F2FS</Name>
+      <Directory>kaisenlinux-f2fs.directory</Directory>
+      <Include>
+        <And>
+          <Category>F2FS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>GFS2</Name>
+      <Directory>kaisenlinux-gfs2.directory</Directory>
+      <Include>
+        <And>
+          <Category>GFS2</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>JFS</Name>
+      <Directory>kaisenlinux-jfs.directory</Directory>
+      <Include>
+        <And>
+          <Category>JFS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>NILFS</Name>
+      <Directory>kaisenlinux-nilfs.directory</Directory>
+      <Include>
+        <And>
+          <Category>NILFS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>VMFS</Name>
+      <Directory>kaisenlinux-vmfs.directory</Directory>
+      <Include>
+        <And>
+          <Category>VMFS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>EXFAT</Name>
+      <Directory>kaisenlinux-exfat.directory</Directory>
+      <Include>
+        <And>
+          <Category>EXFAT</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>ZFS</Name>
+      <Directory>kaisenlinux-zfs.directory</Directory>
+      <Include>
+        <And>
+          <Category>ZFS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>REISERFS</Name>
+      <Directory>kaisenlinux-reiserfs.directory</Directory>
+      <Include>
+        <And>
+          <Category>REISERFS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>REISER4</Name>
+      <Directory>kaisenlinux-reiser4.directory</Directory>
+      <Include>
+        <And>
+          <Category>REISER4</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>NTFS</Name>
+      <Directory>kaisenlinux-ntfs.directory</Directory>
+      <Include>
+        <And>
+          <Category>NTFS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>XFS</Name>
+      <Directory>kaisenlinux-xfs.directory</Directory>
+      <Include>
+        <And>
+          <Category>XFS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>FSCK</Name>
+      <Directory>kaisenlinux-fsck.directory</Directory>
+      <Include>
+        <And>
+          <Category>FSCK</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>GlusterFS</Name>
+      <Directory>kaisenlinux-glusterfs.directory</Directory>
+      <Include>
+        <And>
+          <Category>GlusterFS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>MKFS</Name>
+      <Directory>kaisenlinux-mkfs.directory</Directory>
+      <Include>
+        <And>
+          <Category>MKFS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>UDF</Name>
+      <Directory>kaisenlinux-udf.directory</Directory>
+      <Include>
+        <And>
+          <Category>UDF</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>ECRYPTFS</Name>
+      <Directory>kaisenlinux-ecryptfs.directory</Directory>
+      <Include>
+        <And>
+          <Category>ECRYPTFS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Bitlocker</Name>
+      <Directory>kaisenlinux-bitlocker.directory</Directory>
+      <Include>
+        <And>
+          <Category>Bitlocker</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>APFS</Name>
+      <Directory>kaisenlinux-apfs.directory</Directory>
+      <Include>
+        <And>
+          <Category>APFS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>FileVault</Name>
+      <Directory>kaisenlinux-filevault.directory</Directory>
+      <Include>
+        <And>
+          <Category>FileVault</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>VHDI</Name>
+      <Directory>kaisenlinux-vhdi.directory</Directory>
+      <Include>
+        <And>
+          <Category>VHDI</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>VMDK</Name>
+      <Directory>kaisenlinux-vmdk.directory</Directory>
+      <Include>
+        <And>
+          <Category>VMDK</Category>
+        </And>
+      </Include>
+    </Menu>
+    </Menu>
+    <Menu>
+      <Name>Miscellaneous tools</Name>
+      <Directory>kaisenlinux-miscellaneous.directory</Directory>
+      <Include>
+        <And>
+          <Category>Miscellaneous</Category>
+        </And>
+      </Include>
+    </Menu>
+    </Menu>
+
+
+<Menu>
+	<Name>NESTS Security Tools</Name>
+	<Directory>nesttesting.directory</Directory>
+	<Layout>
+		<Menuname>Most Used Tools</Menuname>
+		<Separator> </Separator>
+		<Menuname>Information Gathering</Menuname>
+		<Menuname>Vulnerability Analysis</Menuname>
+    <Menuname>Web Application Analysis</Menuname>
+    <Separator> </Separator>
+    <Menuname>Exploit Frameworks</Menuname>
+    <Menuname>Maintaining Access</Menuname>
+    <Menuname>Post Exploitation</Menuname>
+    <Menuname>Password Attacks</Menuname>
+    <Separator> </Separator>
+    <Menuname>Wireless Attacks</Menuname>
+    <Menuname>Sniffing - Spoofing</Menuname>
+    <Separator> </Separator>
+    <Menuname>Forensic Tools</Menuname>
+    <Menuname>Automotive</Menuname>
+    <Menuname>Reverse Engineering</Menuname>
+    <Separator> </Separator>
+    <Menuname>Reporting Tools</Menuname>
+		<Merge type="all"/>
+	</Layout>
+
+  
+  <Menu>
+    <Name>Information Gathering</Name>
+    <Directory>01-info-gathering.directory</Directory>
+    <Include>
+      <And>
+        <Category>01-info-gathering</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>DNS Analysis</Name>
+      <Directory>01-01-dns-analysis.directory</Directory>
+      <Include>
+        <And>
+          <Category>01-01-dns-analysis</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SMTP Analysis</Name>
+      <Directory>01-11-smtp-analysis.directory</Directory>
+      <Include>
+        <And>
+          <Category>01-11-smtp-analysis</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>OSINT Analysis</Name>
+      <Directory>01-07-osint-analysis.directory</Directory>
+      <Include>
+        <And>
+          <Category>01-07-osint-analysis</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SMB Analysis</Name>
+      <Directory>01-10-smb-analysis.directory</Directory>
+      <Include>
+        <And>
+          <Category>01-10-smb-analysis</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Route Analysis</Name>
+      <Directory>01-08-route-analysis.directory</Directory>
+      <Include>
+        <And>
+          <Category>01-08-route-analysis</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Host Identification</Name>
+      <Directory>01-02-identify-live-hosts.directory</Directory>
+      <Include>
+        <And>
+          <Category>01-02-identify-live-hosts</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SSL Analysis</Name>
+      <Directory>01-13-ssl-analysis.directory</Directory>
+      <Include>
+        <And>
+          <Category>01-13-ssl-analysis</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Firewall Tools</Name>
+      <Directory>01-03-ids-ips-identification.directory</Directory>
+      <Include>
+        <And>
+          <Category>01-03-ids-ips-identification</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SNMP Analysis</Name>
+      <Directory>01-12-snmp-analysis.directory</Directory>
+      <Include>
+        <And>
+          <Category>01-12-snmp-analysis</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Port Scanners</Name>
+      <Directory>01-04-network-scanners.directory</Directory>
+      <Include>
+        <And>
+          <Category>01-04-network-scanners</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+  <Menu>
+    <Name>Vulnerability Analysis</Name>
+    <Directory>02-vulnerability-analysis.directory</Directory>
+    <Include>
+      <And>
+        <Category>02-vulnerability-analysis</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>Cisco Tools</Name>
+      <Directory>02-01-cisco-tools.directory</Directory>
+      <Include>
+        <And>
+          <Category>02-01-cisco-tools</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Stress Testing</Name>
+      <Directory>02-07-stress-testing.directory</Directory>
+      <Include>
+        <And>
+          <Category>02-07-stress-testing</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Fuzzing Tools</Name>
+      <Directory>02-02-fuzzers.directory</Directory>
+      <Include>
+        <And>
+          <Category>02-02-fuzzers</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>VoIP Tools</Name>
+      <Directory>02-03-voip-tools.directory</Directory>
+      <Include>
+        <And>
+          <Category>02-03-voip-tools</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Greenbone Vulnerability Manager</Name>
+      <Directory>02-06-openvas.directory</Directory>
+      <Include>
+        <And>
+          <Category>02-06-openvas</Category>
+        </And>
+      </Include>
+    </Menu>
+	<Menu>
+      <Name>Nessus</Name>
+      <Directory>02-08-nessus.directory</Directory>
+      <Include>
+        <And>
+          <Category>02-08-nessus</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+  <Menu>
+    <Name>Web Application Analysis</Name>
+    <Directory>03-webapp-analysis.directory</Directory>
+    <Include>
+      <And>
+        <Category>03-webapp-analysis</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>CMS and Site Identification</Name>
+      <Directory>03-01-cms-identification.directory</Directory>
+      <Include>
+        <And>
+          <Category>03-01-cms-identification</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Web Crawlers</Name>
+      <Directory>03-04-web-crawlers.directory</Directory>
+      <Include>
+        <And>
+          <Category>03-04-web-crawlers</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>WebApp Proxies</Name>
+      <Directory>03-06-web-application-proxies.directory</Directory>
+      <Include>
+        <And>
+          <Category>03-06-web-application-proxies</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Web Vulnerability Scanners</Name>
+      <Directory>03-05-web-vulnerability-scanners.directory</Directory>
+      <Include>
+        <And>
+          <Category>03-05-web-vulnerability-scanners</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+    <Menu>
+    <Name>Exploit Frameworks</Name>
+    <Directory>04-exploitation-tools.directory</Directory>
+    <Include>
+      <And>
+        <Category>04-exploitation-tools</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>Metasploit Framework</Name>
+      <Directory>04-01-metasploit-framework.directory</Directory>
+      <Include>
+        <And>
+          <Category>04-01-metasploit-framework</Category>
+        </And>
+      </Include>
+    </Menu>
+	  <Menu>
+      <Name>Social Engineering</Name>
+      <Directory>04-02-social-engineering.directory</Directory>
+      <Include>
+        <And>
+          <Category>04-02-social-engineering</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Exploit Search</Name>
+      <Directory>04-03-exploit-search.directory</Directory>
+      <Include>
+        <And>
+          <Category>04-03-exploit-search</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Payload Generator</Name>
+      <Directory>04-04-payload-generator.directory</Directory>
+      <Include>
+        <And>
+          <Category>04-04-payload-generator</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Web Applications</Name>
+      <Directory>04-05-web-exploit.directory</Directory>
+      <Include>
+        <And>
+          <Category>04-05-web-exploit</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Database Exploitation</Name>
+      <Directory>04-06-db-exploit.directory</Directory>
+      <Include>
+        <And>
+          <Category>04-06-db-exploit</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>IPv6 Exploitation</Name>
+      <Directory>04-07-ipv6.directory</Directory>
+      <Include>
+        <And>
+          <Category>04-07-ipv6</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+  <Menu>
+    <Name>Password Attacks</Name>
+    <Directory>05-password-attacks.directory</Directory>
+    <Include>
+      <And>
+        <Category>05-password-attacks</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>Online Attacks</Name>
+      <Directory>05-01-online-attacks.directory</Directory>
+      <Include>
+        <And>
+          <Category>05-01-online-attacks</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Offline Attacks</Name>
+      <Directory>05-02-offline-attacks.directory</Directory>
+      <Include>
+        <And>
+          <Category>05-02-offline-attacks</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Local Attack</Name>
+      <Directory>05-03-local-attacks.directory</Directory>
+      <Include>
+        <And>
+          <Category>05-03-local-attacks</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Password Profiling</Name>
+      <Directory>05-05-profile.directory</Directory>
+      <Include>
+        <And>
+          <Category>05-05-profile</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+    <Menu>
+    <Name>Maintaining Access</Name>
+    <Directory>10-maintaining-access.directory</Directory>
+    <Include>
+      <And>
+        <Category>10-maintaining-access</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>OS Backdoors</Name>
+      <Directory>10-01-os-backdoors.directory</Directory>
+      <Include>
+        <And>
+          <Category>10-01-os-backdoors</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Web Backdoors</Name>
+      <Directory>10-03-web-backdoors.directory</Directory>
+      <Include>
+        <And>
+          <Category>10-03-web-backdoors</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Tunneling</Name>
+      <Directory>10-02-tunneling.directory</Directory>
+      <Include>
+        <And>
+          <Category>10-02-tunneling</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>AV Evasion</Name>
+      <Directory>10-04-av-bypass.directory</Directory>
+      <Include>
+        <And>
+          <Category>10-04-av-bypass</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+  <Menu>
+    <Name>Post Exploitation</Name>
+    <Directory>08-post-exploit.directory</Directory>
+    <Include>
+      <And>
+        <Category>08-post-exploit</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>Privilege Escalation</Name>
+      <Directory>08-01-priv-esc.directory</Directory>
+      <Include>
+        <And>
+          <Category>08-01-priv-esc</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Hash Dump</Name>
+      <Directory>08-02-hash-dump.directory</Directory>
+      <Include>
+        <And>
+          <Category>08-02-hash-dump</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Passing the Hash</Name>
+      <Directory>08-03-pth.directory</Directory>
+      <Include>
+        <And>
+          <Category>08-03-pth</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Exploitation</Name>
+      <Directory>08-04-exploit.directory</Directory>
+      <Include>
+        <And>
+          <Category>08-04-exploit</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+  <Menu>
+    <Name>Wireless Attacks</Name>
+    <Directory>06-wireless-attacks.directory</Directory>
+    <Include>
+      <And>
+        <Category>06-wireless-attacks</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>802.11 Wireless Analysis</Name>
+      <Directory>06-01-wireless-tools.directory</Directory>
+      <Include>
+        <And>
+          <Category>06-01-wireless-tools</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Bluetooth Tools</Name>
+      <Directory>06-02-bluetooth-tools.directory</Directory>
+      <Include>
+        <And>
+          <Category>06-02-bluetooth-tools</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Software Defined Radio</Name>
+      <Directory>06-05-radio-tools.directory</Directory>
+      <Include>
+        <And>
+          <Category>06-05-radio-tools</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>RFID NFC Tools</Name>
+      <Directory>06-03-rfid-nfc-tools.directory</Directory>
+      <Include>
+        <And>
+          <Category>06-03-rfid-nfc-tools</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Other Wireless Tools</Name>
+      <Directory>06-04-other-wireless.directory</Directory>
+      <Include>
+        <And>
+          <Category>06-04-other-wireless</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+  <Menu>
+    <Name>Reverse Engineering</Name>
+    <Directory>07-reverseengineer.directory</Directory>
+    <Include>
+      <And>
+        <Category>07-reverseengineer</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>Disassemblers</Name>
+      <Directory>07-01-disassemblers.directory</Directory>
+      <Include>
+        <And>
+          <Category>07-01-disassemblers</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Debuggers</Name>
+      <Directory>07-02-debuggers.directory</Directory>
+      <Include>
+        <And>
+          <Category>07-02-debuggers</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Decompilers</Name>
+      <Directory>07-03-decompilers.directory</Directory>
+      <Include>
+        <And>
+          <Category>07-03-decompilers</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Radare2 Framework</Name>
+      <Directory>07-04-radare2.directory</Directory>
+      <Include>
+        <And>
+          <Category>07-04-radare2</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Rizin Framework</Name>
+      <Directory>07-05-rizin.directory</Directory>
+      <Include>
+        <And>
+          <Category>07-05-rizin</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+  <Menu>
+    <Name>Sniffing - Spoofing</Name>
+    <Directory>09-sniffing-spoofing.directory</Directory>
+    <Include>
+      <And>
+        <Category>09-sniffing-spoofing</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>Network Sniffers</Name>
+      <Directory>09-01-network-sniffers.directory</Directory>
+      <Include>
+        <And>
+          <Category>09-01-network-sniffers</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Network Spoofing</Name>
+      <Directory>09-02-network-spoofing.directory</Directory>
+      <Include>
+        <And>
+          <Category>09-02-network-spoofing</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+  <Menu>
+    <Name>Forensic Tools</Name>
+    <Directory>11-forensics.directory</Directory>
+    <Include>
+      <And>
+        <Category>11-forensics</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>PDF Forensics Tools</Name>
+      <Directory>11-11-pdf-forensics-tools.directory</Directory>
+      <Include>
+        <And>
+          <Category>11-11-pdf-forensics-tools</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Forensics Analysis Suites</Name>
+      <Directory>11-08-forensic-suites.directory</Directory>
+      <Include>
+        <And>
+          <Category>11-08-forensic-suites</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Digital Forensics</Name>
+      <Directory>11-03-digital-forensics.directory</Directory>
+      <Include>
+        <And>
+          <Category>11-03-digital-forensics</Category>
+        </And>
+      </Include>
+      <Include>
+        <And>
+          <Category>11-04-forensic-analysis-tools</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Forensic Carving Tools</Name>
+      <Directory>11-05-forensic-carving-tools.directory</Directory>
+      <Include>
+        <And>
+          <Category>11-05-forensic-carving-tools</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Forensic Imaging Tools</Name>
+      <Directory>11-07-forensic-imaging-tools.directory</Directory>
+      <Include>
+        <And>
+          <Category>11-07-forensic-imaging-tools</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Forensic Hashing Tools</Name>
+      <Directory>11-06-forensic-hashing-tools.directory</Directory>
+      <Include>
+        <And>
+          <Category>11-06-forensic-hashing-tools</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+  <Menu>
+    <Name>Reporting Tools</Name>
+    <Directory>12-reporting.directory</Directory>
+    <Include>
+      <And>
+        <Category>12-reporting</Category>
+      </And>
+    </Include>
+  </Menu>
+  <Menu>
+    <Name>Automotive</Name>
+    <Directory>13-automotive.directory</Directory>
+    <Include>
+      <And>
+        <Category>13-automotive</Category>
+      </And>
+    </Include>
+    <Menu>
+      <Name>Can Utils</Name>
+      <Directory>13-01-can-utils.directory</Directory>
+      <Include>
+        <And>
+          <Category>13-01-can-utils</Category>
+        </And>
+      </Include>
+    </Menu>
+  </Menu>
+  </Menu>
+
+
+  </Menu>
+</Menu>
